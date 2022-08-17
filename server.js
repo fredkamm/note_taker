@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const PORT = process.env.PORT || 3001;
-const api = require('./routes/notes.js');
+const api = require('./public/notes.html');
 
 const app = express();
 app.use(express.json());
